@@ -9,7 +9,7 @@ p.draw.circle(screen, (0,255,0) , (200 , 200), 50)
 
 p.draw.circle(screen, (255,0,0) , (400 , 400) , 50 , 2)
 
-p.display.flip()
+p.display.update()
 
 
 while not done:
